@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Titillium Web", sans-serif;
+    list-style-type: none;
+}
+.nav-item:hover .nav-link {
+    color: #24738b;
+    text-decoration: underline;
+}
+.nav-link{
+  font-size: 20px;
+  padding-top: 15px;
+  display: inline-block;
+  color:black;
+  text-align: center;
+}
+
+.logo{
+  height: 180px;
+  width: 230px;
+  margin-left:100px;
+}
+.logo3{
+  width: 50px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+.carticon{
+  position: absolute;
+  right:45px;
+  color: white;
+  background: #8B0000;
+  border-radius: 50%;
+  width:30px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.icon{
+  color:#ff4c68;
+  margin-bottom:1rem;
+}
+
+.icon:hover{
+  color:#ef8172;
+}
+
+#loginregister{
+  background: -webkit-linear-gradient(top,#fffff3,#FFF5C3,#FFF3B0,#CA26FF);
+  font-family:"Montserrat-Black";
+
+}
+
+#nav{
+  font-family:"Montserrat-Black";
+  font-size:18px;
+}
+#title{
+  color:black;
+  font-family: 'Barlow', sans-serif;
+  padding-top: 0px;
+}
+.navbar-brand{
+  color:white;
+}
+
+
+.icon{
+  color:#ff4c68;
+  margin-bottom:1rem;
+}
+
+.icon:hover{
+  color:#ef8172;
+}
+.card{
+  margin: 3%;
+}
+.navbar-nav{
+  margin-right: 10%;
+}
+.feature{
+text-align: center;
+width: 100%;
+font-size: 1.5em;
+}
+.feature1{
+padding: 4% 1%;
+}
+.rule{
+  text-align: left;
+  font-size:0.7em;
+}
+
+.Name{
+  display: inline-block;
+  padding:2%;
+}
+.product-text{
+  font-family: 'Barlow', sans-serif;
+}
+
+.text{
+  text-align: center;
+  margin:10px;
+  padding: 5% 10%;
+  font-size: 2.3em;
+  font-weight: 600;
+}
+.text1{
+  text-align: center;
+  background-color: #F5EDCE;
+padding: 1%;
+}
+
+
+.card1{
+  padding: 3% 5%;
+}
+.facebook{
+  padding: 5%;
+}
+
+#footer{
+  text-align: center;
+  background-color: #F5EDCE;
+}
+
+.logo2{
+  width: 40px;
+  height: 25px;
+  margin: 5px;;
+}
+.logo1{
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+}
+.end{
+  display: inline-block;
+  margin-top: 2%;
+  background-color: #F5EDCE;
+}
+.wallet{
+  margin-top: 10px;
+}
+.bot{
+    color: #000;
+    text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+li{
+  padding:2%;
+}
+
+.fa-brands{
+  margin:10px;
+}
+.fa-solid{
+  margin:10px;
+}
+.pad{
+  padding: 1%;
+}
+
+.box{
+  height: 40px;
+  width: 300px;
+  padding: 2%;
+
+}
+.login{
+  margin:1rem auto 9rem;
+  max-width: 33.4rem;
+  padding:1rem;
+  text-align: center;
+}
+.create{
+  text-align: left;
+}
+.container{
+  position: relative;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  padding: 20px;
+}
+.container .content{
+  position: relative;
+  max-width: 800px;
+}
+.atext{
+  font-family: 'Marck Script', cursive;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 550;
+  position: relative;
+  padding: 10px;
+  display: inline-block;
+  margin: 30px;
+  text-decoration: none;
+  color: white;
+  background: white;
+  width: 170px;
+  height: 70px;
+  font-size: 2em;
+  text-align: center;
+  background: -webkit-linear-gradient(right, #FAD7A1,#E96D71);
+}
+.container#blur.active{
+      filter: blur(20px);
+      pointer-events: none;
+      user-select:
+    }
+#popout{
+  position: fixed;
+  top: 50%;
+  left:50%;
+  transform: translate(-50% ,-50%);
+  width: 100%;
+  height: 95%;
+  max-width: 470px;
+  padding: 50px;
+  box-shadow: 0 5px 30px rgba(0,0,0,.30);
+  background: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+#popout.active{
+top: 50%;
+visibility: visible;
+transition: 0.5s;
+opacity: 1;
+}
+
+#success{
+  position: relative;
+  left:450px;
+  bottom:550px;
+  visibility: hidden;
+  transition: 0.5s;
+}
+#success.active{
+  left:0px;
+  visibility: visible;
+  transition: 0.5s;
+  background-color: white;
+}
+#log{
+  visibility: hidden;
+}
+#log.active{
+  visibility: visible;
+}
+
+.data{
+  text-align: center;
+}
+.home{
+  text-decoration: none;
+}
+.home:hover{
+  color: #fff;
+}
+
+#check0,#check1,#check2,#check3,#check4
+{
+   color:red;
+}
+.eye{
+  position: absolute;
+  right: 414px;
+  bottom:122.5px;
+}
+.eye1{
+  position: absolute;
+  right: 414px;
+  top:748px;
+}
+.row#blur.active{
+      filter: blur(20px);
+      pointer-events: none;
+      user-select: none;
+    }
+.popout.active{
+      visibility: visible;
+      opacity: 1;
+      transition: 0.5s;
+    }
+.button{
+        font-size: 1.3em;
+        border: none;
+        letter-spacing: 1px;
+        background: -webkit-linear-gradient(right, #FAD7A1,#E96D71);
+        border-radius: 10px;
+        padding: 3px 20px;
+        cursor: pointer;
+        width:350px;
+        transition: 0.5s;
+    }
+    button:hover {
+    			color: white;
+    		}
+    .data{
+      max-height: 100px;
+      height: 100%;
+      width: 100%;
+      margin: 40px 0;
+    }
+
+    .forgot-pass{
+      text-decoration: none;
+      margin-right: 100px;
+    }
+    .usr{
+      width: 350px;
+      padding: 20px;
+      margin:10px;
+    }
+    .exit{
+      text-decoration: none;
+      color: black;
+      margin-left: 360px;
+      font-weight: 600;
+
+    }
+    .exit1{
+      text-decoration: none;
+      color: black;
+      margin-left: 350px;
+      font-weight: 600;
+    }
+    .img-success{
+border-radius: 50%;
+      width: 200px;
+      height: 200px;
+
+    }
+    .tick{
+      text-align: center;
+      margin-top: 20px;
+    }
+    .btn{
+      margin:20px 0px;
+    }
